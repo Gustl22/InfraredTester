@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oberhauser.infraredtester.InfraredActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/getFrequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get frequency" />
+
+        <Button
+            android:id="@+id/sendLong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send long signal" />
+
+        <Button
+            android:id="@+id/sendShort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Short Signal" />
+
+        <TextView
+            android:id="@+id/tv_frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frequency"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
